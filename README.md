@@ -4,7 +4,7 @@ The Dataset used is modified version of the data available at: [Head Pose Image 
 
 The head pose database is a benchmark of 2790 monocular face images of 15 persons with variations of pan and tilt angles from -90 to +90 degrees. For every person, 2 series of 93 images (93 different poses) are available. The purpose of having 2 series per person is to be able to train and test algorithms on known and unknown faces (cf. sections 2 and 3). People in the database wear glasses or not and have various skin colour. Background is willingly neutral and uncluttered in order to focus on face operations.
 
-The image dimensions are [192,144]
+The image dimensions are [192,144] later converted to grayscale.
 
 **Tilt (Vertical angle)** = {-90, -60, -30, -15, 0, +15, +30, +60, +90},  
 Negative values - bottom, Positive values - top;
