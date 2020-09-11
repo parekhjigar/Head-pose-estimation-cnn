@@ -1,5 +1,15 @@
 # Head Pose Estimation CNN
 
+## Notebooks:
+
+- [Multi-model-headpose-cnn.ipynb](https://github.com/parekhjigar/Head-pose-estimation-cnn/blob/master/Multi_model_head_pose_estimation_cnn.ipynb)
+
+- [Tilt-model-headpose-cnn.ipynb](https://github.com/parekhjigar/Head-pose-estimation-cnn/blob/master/Tilt_model_headpose_cnn.ipynb)
+
+- [Pan-model-headpose-cnn.ipynb](https://github.com/parekhjigar/Head-pose-estimation-cnn/blob/master/Pan_model_headpose_cnn.ipynb)
+
+## Dataset
+
 The Dataset used is modified version of the data available at: [Head Pose Image Database](http://www-prima.inrialpes.fr/perso/Gourier/Faces/HPDatabase.html)
 
 The head pose database is a benchmark of 2790 monocular face images of 15 persons with variations of pan and tilt angles from -90 to +90 degrees. For every person, 2 series of 93 images (93 different poses) are available. The purpose of having 2 series per person is to be able to train and test algorithms on known and unknown faces (cf. sections 2 and 3). People in the database wear glasses or not and have various skin colour. Background is willingly neutral and uncluttered in order to focus on face operations.
@@ -7,12 +17,10 @@ The head pose database is a benchmark of 2790 monocular face images of 15 person
 The image dimensions are [192,144]
 
 **Tilt (Vertical angle)** = {-90, -60, -30, -15, 0, +15, +30, +60, +90},  
-Negative values - bottom, Positive values - top;
-
+Negative values - bottom, Positive values - top.
 
 **Pan (Horizontal angle)** = {-90, -75, -60, -45, -30, -15, 0, +15, +30, +45, +60, +75, +90},  
-Negative values - left, Positive values - right;
-                .
+Negative values - left, Positive values - right.
 
 ## Files:
 
@@ -21,14 +29,6 @@ Negative values - left, Positive values - right;
 - `train_data.csv`: Contain files names of the train set, person id, sequence id for each person, ground truth tilt and pan angles.
 
 - `test_data.csv`: Contain files names of the test set, person id, sequence id for each person.
-
-## Notebooks:
-
-- [Multi-model-headpose-cnn.ipynb](https://github.com/parekhjigar/Head-pose-estimation-cnn/blob/master/Multi_model_head_pose_estimation_cnn.ipynb)
-
-- [Tilt-model-headpose-cnn.ipynb](https://github.com/parekhjigar/Head-pose-estimation-cnn/blob/master/Tilt_model_headpose_cnn.ipynb)
-
-- [Pan-model-headpose-cnn.ipynb](https://github.com/parekhjigar/Head-pose-estimation-cnn/blob/master/Pan_model_headpose_cnn.ipynb)
 
 
 ## 1. Abstract
