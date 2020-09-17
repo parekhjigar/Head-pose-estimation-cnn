@@ -2,11 +2,11 @@
 
 ## Notebooks:
 
-- [Multi-model-headpose-cnn.ipynb](https://github.com/parekhjigar/Head-pose-estimation-cnn/blob/master/Multi_model_head_pose_estimation_cnn.ipynb)
+- [Multi-model-headpose-cnn.ipynb](https://github.com/parekhjigar/Head-pose-estimation-cnn/blob/master/CNN-models/Multi_model_head_pose_estimation_cnn.ipynb)
 
-- [Tilt-model-headpose-cnn.ipynb](https://github.com/parekhjigar/Head-pose-estimation-cnn/blob/master/Tilt_model_headpose_cnn.ipynb)
+- [Tilt-model-headpose-cnn.ipynb](https://github.com/parekhjigar/Head-pose-estimation-cnn/blob/master/CNN-models/Tilt_model_headpose_cnn.ipynb)
 
-- [Pan-model-headpose-cnn.ipynb](https://github.com/parekhjigar/Head-pose-estimation-cnn/blob/master/Pan_model_headpose_cnn.ipynb)
+- [Pan-model-headpose-cnn.ipynb](https://github.com/parekhjigar/Head-pose-estimation-cnn/blob/master/CNN-models/Pan_model_headpose_cnn.ipynb)
 
 ## Dataset
 
