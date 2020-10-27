@@ -32,6 +32,7 @@ Negative values - left, Positive values - right.
 
 
 ## 1. Abstract
+
 The purpose of this project and report is to apply various convolutional neural network algorithms and build a Deep Learning Model which is capable of estimating Head Pose of a person from monocular face images which is quantified by Tilt: Vertical angle of the head and Pan: Horizontal angle of the head. Since, there are 9 different angles for tilt and 13 different angles for pan, I decided to consider these values to be fixed classes rather than continuous values as we are required to get exact classes of angles rather than a range of angle and hence chose classification over regression. I applied two different approaches to build the models. Firstly, I implemented a multi-output model which is capable of predicting class labels for each head, i.e. tilt and pan. Secondly, I implemented two different models for tilt and pan respectively.
 
 ## 2. Data Exploration
@@ -66,6 +67,7 @@ Since the data is unbalanced, data augmentation techniques are applied which hel
 ![Augmented-distribution](Augmented-distribution.png)
 
 ## 3. Model Architecture of CNN
+
 I considered two different approaches to build the CNN models. Firstly I implemented a multi-output model which is capable of predicting class labels for each head, i.e. tilt and pan. Secondly, I implemented two different models for tilt and pan respectively.
 
 ### 3.1. Multi-output CNN model
